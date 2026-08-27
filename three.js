@@ -1,6 +1,6 @@
 import * as THREE from "three";
-import vertexShader from "./shaders/vertexShader.glsl";
-import fragmentShader from "./shaders/fragmentShader.glsl";
+import vertexShader from "./shaders/vertexShader.glsl?raw";
+import fragmentShader from "./shaders/fragmentShader.glsl?raw";
 import GUI from "lil-gui";
 
 const COLOR_VARS = ["--color-glow-0", "--color-glow-1", "--color-glow-2"];
